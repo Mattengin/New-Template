@@ -1,12 +1,21 @@
-body{
-    font-family: 'Open Sans', sans-serif;
-}
-.head{
-    margin: 0;
-    padding: 0;
+.it{
     
 
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url("unsplash.jpg");
+    
+    height: 100vh; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 
 .container{
     position: relative;
@@ -22,7 +31,7 @@ body{
 .container .card{
     position: relative;
     background-color: #000;
-    /* overflow: hidden; */
+    overflow: hidden;
     border-radius: 10px;
     transition: 0.5s;
 }
@@ -71,6 +80,7 @@ img{
 .container .card:nth-child(1) .content{
     background: linear-gradient(0deg, #c21833, transparent);
     border-radius: 10px;
+    
 }
 
 .container .card:nth-child(2) .content{
